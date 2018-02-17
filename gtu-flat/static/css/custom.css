@@ -1,0 +1,60 @@
+
+.iframe-container{
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%; /* Ratio 16:9 ( 100%/16*9 = 56.25% ) */
+}
+.iframe-container > *{
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+
+/** PROFILE **/
+
+.profile img {
+    width: 160px;
+    height: auto;
+}
+
+.profile tr:first-child td {
+    width: 160px;
+    height: 250px;
+    padding-right: 40px;
+}
+
+.profile td {
+   border: 0 none;
+}
+
+.profile a {
+   padding: 0;
+   display: inherit;
+}
+
+.profile td.icon {
+   width: 40px;
+}
+
+table.profile {
+    border-bottom: 1px solid #ebebeb;
+    margin-bottom: 50px;
+    display: block;
+}
+
+.profile tr:first-child td {
+    text-align: left;
+    vertical-align: top;
+}
+
+footer i {
+    margin-right: 5px;
+}

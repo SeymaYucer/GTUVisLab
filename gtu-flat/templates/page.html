@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    {% block head %}
+    <meta charset="utf-8">
+    <title>{% block title %}{{ SITENAME }}{% endblock title %}</title>
+    <meta name="description" content="Gebze Technical University Computer Vision Laboratory">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {% block extra_meta %}
+    {% endblock %}
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Loading Flat UI -->
+    <link href="{{ SITEURL }}/theme/css/flat-ui.min.css" rel="stylesheet">
+    <link href="{{ SITEURL }}/theme/css/custom.css" rel="stylesheet">
+
+    <!-- <link rel="shortcut icon" href="img/favicon.ico"> -->
+    <!-- <link rel="stylesheet/less" type="text/css" href="{{ SITEURL }}/theme/less/flat-ui.less" /> -->
+    <!-- <script src="http://cdnjs.cloudflare.com/ajax/libs/less.js/2.7.2/less.min.js"></script> -->
+
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements. All other JS at the end of file. -->
+    <!--[if lt IE 9]>
+      <script src="js/vendor/html5shiv.js"></script>
+      <script src="js/vendor/respond.min.js"></script>
+    <![endif]-->
+      {% block scripts %}
+      {% endblock %}
+    {% endblock head %}
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12">
+          <img src="{{ SITEURL }}/theme/img/header.jpg" class="img-responsive" />
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-12">
+          <nav class="navbar navbar-inverse navbar-embossed" role="navigation">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-01">
+                <span class="sr-only">Toggle navigation</span>
+              </button>
+              <a class="navbar-brand" href="{{ SITEURL }}/">GTU - VisLab</a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar-collapse-01">
+              <ul class="nav navbar-nav navbar-right">
+              {% for p in pages %}
+                  <li{% if p == page %} class="active"{% endif %}><a href="{{ SITEURL }}/{{ p.url }}">{{ p.title }}</a></li>
+                {% endfor %}
+              </ul>
+              
+            </div><!-- /.navbar-collapse -->
+          </nav><!-- /navbar -->
+        </div>
+      </div> <!-- /row -->
+      <div class="row">
+        <div class="col-xs-12">
+          {% block content %}
+            {{ page.content }}
+          {% endblock %}
+        </div>
+          
+      </div>
+    </div>
+    <!-- /.container -->
+
+     <footer>
+      <div class="container">
+        <div class="row">
+          
+              <div class="col-xs-7">                
+                <p>Gebze Technical University</p>
+                <p><strong>Department of Computer Engineering</strong></p>            
+
+          </div> <!-- /col-xs-7 -->
+         <div class="col-xs-5 text-right">
+
+            <p><i class="glyphicon glyphicon-earphone"></i> <a href="tel:+902626052229">+90 262 605 22 29</a></p>
+            <p><i class="glyphicon glyphicon-envelope"></i> <a href="mailto:vision {at} bilmuh.gyte.edu.tr"> vision[at]bilmuh.gyte.edu.tr</a></p>
+       
+        </div> <!-- /col-xs-7 -->
+
+         
+      </div>
+    </footer>
+    <!-- jQuery (necessary for Flat UI's JavaScript plugins) -->
+    <script src="{{ SITEURL }}/theme/js/vendor/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+<!--     <script src="{{ SITEURL }}/theme/js/vendor/video.js"></script> -->
+    <script src="{{ SITEURL }}/theme/js/flat-ui.min.js"></script>
+
+  </body>
+</html>
