@@ -22,11 +22,24 @@ Title: Publications
 
 **Conference Papers**
 
+*   [Enes Aslan, YS Akgul, "Tongue Contour Extraction from Ultrasound Images Using Image Parts", IEEE  Signal Processing and Communications Applications Conference (SIU), İzmir, Mayıs 2018]({filename}/pdfs/2018/559.pdf) 
+*   [MM Kilic, YS Akgul, "Ship Location Estimation from Radar and Optic Images using Metric Learning", IEEE  Signal Processing and Communications Applications Conference (SIU), İzmir, Mayıs 2018]({filename}/pdfs/2018/Ship_Location_Estimation.pdf) 
 *   [Albayrak, Nur Banu, Emrah Yildirim, and Yusuf Sinan Akgul. "Prostate Size Inference from Abdominal Ultrasound Images with Patch Based Prior Information." International Conference on Advanced Concepts for Intelligent Vision Systems. Springer, Cham, 2017.]({filename}/pdfs/2017/ACIVS.pdf)
 *   [Dayioglugil A.B., Akgul Y.S. (2017) Continuous Embedding Spaces for Bank Transaction Data. In: Kryszkiewicz M., Appice A., Ślęzak D., Rybinski H., Skowron A., Raś Z. (eds) Foundations of Intelligent Systems. ISMIS 2017. Lecture Notes in Computer Science, vol 10352. Springer, Cham]({filename}/pdfs/2017/Continuous_Embedding_Spaces_for_Bank_Transaction_Data-v8.pdf)
+*   [Nur Banu Albayrak, Ayşe Betül Oktay and Yusuf Sinan Akgul,"Prostate Localization From Abdominal Ultrasound Images by Using Two-Level Approach" , IEEE Signal Processing and Communications Applications Conference (SIU), 2017 25th]({filename}/pdfs/2017/07960487.pdf)
+*   [Ayşe Betül Oktay and Yusuf Sinan Akgul,"Diagnosis of Degenerative Intervertebral Disc Disease with Deep Networks and SVM". In: Czachórski T., Gelenbe E., Grochla K., Lent R. (eds) Computer and Information Sciences. ISCIS 2016. Communications in Computer and Information Science, vol 659. Springer, Cham ]({filename}/pdfs/2016/Diagnosis_of_Degenerative_Intervertebral_Disc_Dise.pdf)
 *   [Enes Aslan, Tugrul Karakaya, Ethem Unver and Yusuf Sinan Akgul, "A Part Based Modeling Approach for Invoice Parsing", 11th International Conference on Computer Vision Theory and Applications (VISAPP), Rome, Feb 2016. ]({filename}/pdfs/2016/VISIGRAPP_2016Camera.pdf)
-*   [Karakoc, Necmeddin Said, Samil Karahan, and Yusuf Sinan Akgul, "Regressor Based Estimation of the Eye Pupil Center", Pattern Recognition. Springer International Publishing, 2015\. 481-491. ]({filename}/pdfs/2015/Regressor Based Estimation of The Eye Pupil Center.pdf)
-*   [Nur Banu Albayrak, Ayşe Betül Oktay and Yusuf Sinan Akgul,"Prostate Detection From Abdominal Ultrasound Images: A Part Based Approach" , IEEE International Conference of Image Processing, ICIP 2015\. ]({filename}/pdfs/2015/ICIP 2015.pdf)
+*   [Serkan Çolak, Ömer Faruk Özdemir and Yusuf Sinan Akgul,"A Stereo Camera System For Palm Vein
+Biometrics" , IEEE Signal Processing and Communications Applications Conference (SIU), 2016 24th]({filename}/pdfs/2016/07496117.pdf)
+*   [Ünsal Gökdag, Mehmet Yasin Akpınar and Yusuf Sinan Akgül,"Planogram Matching Control in Grocery Products by
+Image Processing" , IEEE Signal Processing and Communications Applications Conference (SIU), 2016 24th]({filename}/pdfs/2016/07495972.pdf)
+*   [Ömer Faruk Özdemir,Serkan Çolak and Yusuf Sinan Akgul,"Regression Based Stereo Palm Vein Extraction
+and Identification System" , IEEE Signal Processing and Communications Applications Conference (SIU), 2016 24th]({filename}/pdfs/2016/07496043.pdf)
+*   [Samil Karahan and Yusuf Sinan Akgul,"Eye Detection by Using Deep Learning" , IEEE Signal Processing and Communications Applications Conference (SIU), 2016 24th]({filename}/pdfs/2016/07496197.pdf)
+*   [Adem Hacıoğlu1, Ömer Faruk Özdemir, Ali Kürşad Şahin and Yusuf Sinan Akgül,"Augmented Reality Based Wrist Rehabilitation
+System" , IEEE Signal Processing and Communications Applications Conference (SIU), 2016 24th]({filename}/pdfs/2016/07496128.pdf)
+*   [Karakoc, Necmeddin Said, Samil Karahan, and Yusuf Sinan Akgul, "Regressor Based Estimation of the Eye Pupil Center", Pattern Recognition. Springer International Publishing, 2015. 481-491. ]({filename}/pdfs/2015/Regressor Based Estimation of The Eye Pupil Center.pdf)
+*   [Nur Banu Albayrak, Ayşe Betül Oktay and Yusuf Sinan Akgul,"Prostate Detection From Abdominal Ultrasound Images: A Part Based Approach" , IEEE International Conference of Image Processing, ICIP 2015. ]({filename}/pdfs/2015/ICIP2015.pdf)
 *   [Abdullah Akay and Yusuf Sinan Akgul, "3D Reconstruction with Mirrors and RGB-D Cameras", 9th International Conference on Computer Vision Theory and Applications (VISAPP), Lisbon, January 2014. ]({filename}/pdfs/2014/camera ready.pdf)
 *   [Ilktan Ar and Yusuf Sinan Akgul, "Action Recognition Using Random Forest Prediction with Combined Pose-based and Motion-based Features", 8th International Conference on Electrical and Electronics Engineering (ELECO), Bursa, November 2013. ]({filename}/pdfs/2013/128_final.pdf)
 *   [Samil Karahan,Yakup Genc, Yusuf Sinan Akgul, "A New 3D Line of Gaze Estimation Method with Simple Marked Targets and Glasses", 3rd International Workshop on Pervasive Eye Tracking and Mobile Eye-Based Interaction, ECEM, Lund, August 2013. ]({filename}/pdfs/2013/KarahanGencAkgul.pdf)
